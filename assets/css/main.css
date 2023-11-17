@@ -266,7 +266,7 @@ a {
 	-ms-transition: color 0.2s ease, border-bottom 0.2s ease;
 	transition: color 0.2s ease, border-bottom 0.2s ease;
 	text-decoration: none;
-	border-bottom: dotted 1px;
+	/* border-bottom: dotted 1px; */
 	color: inherit;
 }
 
@@ -3943,4 +3943,14 @@ body.is-preload #header.alt .logo {
 	object-fit: cover;
 	padding: .5rem;
 	border: 3px solid #AA688C;
+}
+
+.project-bullets {
+	text-align: left;
+	font-size: 14px;
+}
+
+.app-title {
+	font-size: 18px;
+	font-weight: 500;
 }
